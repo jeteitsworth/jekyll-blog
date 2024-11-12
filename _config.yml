@@ -23,3 +23,27 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+
+title: The JET Stream # name of the site
+author: James Teitsworth # name of site's author
+email: james@jamesteitsworth.com # email of site's author
+url: https://jamesteitsworth.com # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  A personal blog for an unpersonable autistic guy.
+
+permalink: /:slug.html
+
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+goat_counter: "jamesteitsworth" # put your GoatCounter name if you want to use GoatCounter analytics
+
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  back_home_text: "back" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
